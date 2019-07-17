@@ -1,0 +1,37 @@
+{
+  "name": "designpatternjs",
+  "version": "1.0.0",
+  "description": "js for design patterns ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node test.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "10.0.2",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.6",
+    "cli-table": "^0.3.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-react": "^7.13.0",
+    "jest": "^24.8.0",
+    "terser": "^4.0.2",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "yargs": "^13.2.4"
+  },
+  "resolutions": {
+    "terser": "3.14.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
